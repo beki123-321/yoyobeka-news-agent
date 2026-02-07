@@ -28,7 +28,7 @@ jobs:
         run: python main.py
 
       - name: Upload output files
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: yoyobeka-output
           path: output/
